@@ -17,7 +17,7 @@ def takeBet(chips):
             print ('Введи целое число!')
         else:
             if chips.bet>chips.total:
-                print(f'Баланса не хватает:) У тебя всего {chips.total}')
+                print(f'\nБаланса не хватает:)\n\n Для поплнения баланса воспользуйся Каспи переводами\n\n У тебя всего {chips.total}')
             else:
                 break
 def hit(deck,hand):
